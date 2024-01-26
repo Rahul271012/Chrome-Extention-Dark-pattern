@@ -1,0 +1,23 @@
+
+{
+    "manifest_version": 3,
+    "name": "URL Viewer",
+    "version": "1.0",
+    "description": "A simple Chrome extension to display the current URL.",
+    "permissions": [
+        "activeTab",  
+        "storage",
+        "scripting"
+      ],
+      "action": {
+        "default_popup": "popup.html" 
+      },
+    "icons": {
+      "16": "icons1.png",
+      "48": "icons1.png",
+      "128": "icons1.png"
+    }
+    
+    
+  }
+  
